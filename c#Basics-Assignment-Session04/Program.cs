@@ -53,6 +53,11 @@ namespace c_Basics_Assignment_Session04
             //TryGetPrice("Clean Code", out double price);
             //Console.WriteLine(price);
             #endregion
+
+            #region Call Question 10
+            //PrintBookInfo("Clean Code");
+            //PrintBookInfo("Clean Code", 300);
+            #endregion
         }
 
 
@@ -147,6 +152,16 @@ namespace c_Basics_Assignment_Session04
         //        price = 0.0;
         //        return false;
         //    }
+        //}
+
+        #endregion
+
+
+        #region Question 10
+
+        //static void PrintBookInfo(string title, int pages = 300)
+        //{
+        //    Console.WriteLine($"Title: {title}, Pages: {pages}");
         //}
 
         #endregion
