@@ -12,6 +12,16 @@
             #region Call Question 4
             //PrintBookTitle("Clean Code");
             #endregion
+
+            #region Call Question 5
+            //int pages = 400;
+            //AddBonusPages(pages);
+            //Console.WriteLine(pages);
+
+            //print 400
+            //because the method gets a copy of pages, not the original variable.
+
+            #endregion
         }
 
 
@@ -49,6 +59,16 @@
         //    Console.WriteLine("Book title: " + title); 
         //}
 
+        #endregion
+
+
+        #region Question 5
+
+        //static void AddBonusPages(int pages)
+        //{
+        //    pages += 50;
+        //}
+       
         #endregion
     }
 }
