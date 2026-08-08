@@ -48,6 +48,11 @@ namespace c_Basics_Assignment_Session04
             //ReplaceArray(ref prices);
             //Console.WriteLine(prices.Length);
             #endregion
+
+            #region Call Question 9
+            //TryGetPrice("Clean Code", out double price);
+            //Console.WriteLine(price);
+            #endregion
         }
 
 
@@ -123,6 +128,25 @@ namespace c_Basics_Assignment_Session04
         //static void ReplaceArray(ref double[] prices)
         //{ 
         //    prices = new double[] { 10.0, 12.5, 15.0 };
+        //}
+
+        #endregion
+
+
+        #region Question 9
+
+        //static bool TryGetPrice(string title, out double price)
+        //{
+        //    if (title == "Clean Code")
+        //    {
+        //        price = 25.5;
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        price = 0.0;
+        //        return false;
+        //    }
         //}
 
         #endregion
