@@ -31,6 +31,15 @@
             //print 20.5
             //because the method modifies the original array, not a copy.
             #endregion
+
+            #region Call Question 7
+            //int pages = 400;
+            //AddBonusPages(ref pages);
+            //Console.WriteLine(pages);
+
+            //print 450
+            //because the method is a Reference Type
+            #endregion
         }
 
 
@@ -86,6 +95,16 @@
         //static void ApplyDiscount(double[] prices)
         //{
         //    prices[0] -= 5;
+        //}
+
+        #endregion
+
+
+        #region Question 7
+
+        //static void AddBonusPages(ref int pages)
+        //{
+        //    pages += 50;
         //}
 
         #endregion
