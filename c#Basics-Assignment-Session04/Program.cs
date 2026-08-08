@@ -1,4 +1,6 @@
-﻿namespace c_Basics_Assignment_Session04
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace c_Basics_Assignment_Session04
 {
     internal class Program
     {
@@ -39,6 +41,12 @@
 
             //print 450
             //because the method is a Reference Type
+            #endregion
+
+            #region Call Question 8
+            //double[] prices = { 25.5, 40.0 };
+            //ReplaceArray(ref prices);
+            //Console.WriteLine(prices.Length);
             #endregion
         }
 
@@ -105,6 +113,16 @@
         //static void AddBonusPages(ref int pages)
         //{
         //    pages += 50;
+        //}
+
+        #endregion
+
+
+        #region Question 8
+
+        //static void ReplaceArray(ref double[] prices)
+        //{ 
+        //    prices = new double[] { 10.0, 12.5, 15.0 };
         //}
 
         #endregion
