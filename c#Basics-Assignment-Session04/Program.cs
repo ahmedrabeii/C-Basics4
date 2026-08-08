@@ -62,6 +62,10 @@ namespace c_Basics_Assignment_Session04
             #region Call Question 11
             //PrintBookInfo(pages: 500, title: "Clean Code");
             #endregion
+
+            #region Call Question 12
+            //PrintAllTitles("C#", "java", "C++");
+            #endregion
         }
 
 
@@ -176,6 +180,19 @@ namespace c_Basics_Assignment_Session04
         //static void PrintBookInfo(string title, int pages = 300)
         //{
         //  Console.WriteLine($" Pages: {pages}, Title: {title}");
+        //}
+
+        #endregion
+
+
+        #region Question 12
+
+        //static void PrintAllTitles(params string[] titles)
+        //{
+        //    foreach (string title in titles)
+        //    {
+        //        Console.WriteLine(title);
+        //    }
         //}
 
         #endregion
