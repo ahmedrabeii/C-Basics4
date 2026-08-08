@@ -22,6 +22,15 @@
             //because the method gets a copy of pages, not the original variable.
 
             #endregion
+
+            #region Call Question 6
+            //double[] prices = { 25.5, 40.0 };
+            //ApplyDiscount(prices);
+            //Console.WriteLine(prices[0]);
+
+            //print 20.5
+            //because the method modifies the original array, not a copy.
+            #endregion
         }
 
 
@@ -68,7 +77,17 @@
         //{
         //    pages += 50;
         //}
-       
+
+        #endregion
+
+
+        #region Question 6
+
+        //static void ApplyDiscount(double[] prices)
+        //{
+        //    prices[0] -= 5;
+        //}
+
         #endregion
     }
 }
